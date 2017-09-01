@@ -1,0 +1,23 @@
+//
+// Prefix header for all source files of the 'ThumbnailCreator' target in the 'ThumbnailCreator' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#import "GlobalCounter.h"
+#import "StopTimer.h"
+#endif
+
+
+
+#define CONTENT_PATH @"content"
+
+#define CONTENT_DIRECTORY [[NSBundle mainBundle] pathForResource:@"content" ofType:nil]
+#define DOWNLOAD_DIRECTORY kUADownloadDirectory

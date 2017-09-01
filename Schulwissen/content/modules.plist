@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Deutsch</string>
+		<key>productID</key>
+		<string>com.klett.Schulwissen.IAPDeutsch</string>
+		<key>demoID</key>
+		<string>DeutschDEMO</string>
+		<key>color</key>
+		<string>0,172,211</string>
+		<key>shortDescription</key>
+		<string>Pronomen sind Fürwörter. Wofür stehen sie eigentlich? Welches Satzglied des Aktivsatzes wird im Passiv zum Subjekt?
+Die wichtigsten Themen in Deutsch auf 100 Lernkarten</string>
+		<key>shopDescriptionFile</key>
+		<string>shop_deutsch.html</string>
+		<key>iconFile</key>
+		<string>module_icon_deutsch.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Englisch</string>
+		<key>productID</key>
+		<string>com.klett.Schulwissen.IAPEnglisch</string>
+		<key>demoID</key>
+		<string>EnglischDEMO</string>
+		<key>color</key>
+		<string>0,165,19</string>
+		<key>shortDescription</key>
+		<string>In welchen drei Arten von Sätzen verwendet man to do als Hilfsverb? Wie werden Adjektive gesteigert?
+Die wichtigsten Themen in Englisch auf 100 Lernkarten</string>
+		<key>shopDescriptionFile</key>
+		<string>shop_englisch.html</string>
+		<key>iconFile</key>
+		<string>module_icon_englisch.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Geschichte</string>
+		<key>productID</key>
+		<string>com.klett.Schulwissen.IAPGeschichte</string>
+		<key>demoID</key>
+		<string>GeschichteDEMO</string>
+		<key>color</key>
+		<string>44,87,210</string>
+		<key>shortDescription</key>
+		<string>Wodurch unterschieden sich die beiden Stadtstaaten Sparta und Athen? Warum scheiterte die Weimarer Republik?
+Die wichtigsten Themen in Geschichte auf 100 Lernkarten</string>
+		<key>shopDescriptionFile</key>
+		<string>shop_geschichte.html</string>
+		<key>iconFile</key>
+		<string>module_icon_geschichte.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Physik</string>
+		<key>productID</key>
+		<string>com.klett.Schulwissen.IAPPhysik</string>
+		<key>demoID</key>
+		<string>PhysikDEMO</string>
+		<key>color</key>
+		<string>0,170,160</string>
+		<key>shortDescription</key>
+		<string>Was versteht man unter der Deklination des Erdmagnetfelds? Reißt ein schwer beladener Sack eher, wenn er langsam oder wenn er schnell angehoben wird?
+Die wichtigsten Themen in Physik auf 100 Lernkarten</string>
+		<key>shopDescriptionFile</key>
+		<string>shop_physik.html</string>
+		<key>iconFile</key>
+		<string>module_icon_physik.png</string>
+	</dict>
+</array>
+</plist>

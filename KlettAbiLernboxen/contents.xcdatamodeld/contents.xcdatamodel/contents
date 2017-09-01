@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1487" systemVersion="12B19" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ContentsCategory" representedClassName="ContentsCategory" syncable="YES">
+        <attribute name="firstPageNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="firstSubcategoryNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberOfPages" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="numberOfSubcategories" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="position" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="module" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ContentsModule" inverseName="categories" inverseEntity="ContentsModule" syncable="YES"/>
+        <relationship name="pages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ContentsPage" inverseName="category" inverseEntity="ContentsPage" syncable="YES"/>
+        <relationship name="subcategories" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ContentsSubcategory" inverseName="category" inverseEntity="ContentsSubcategory" syncable="YES"/>
+    </entity>
+    <entity name="ContentsModule" representedClassName="ContentsModule" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="categories" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ContentsCategory" inverseName="module" inverseEntity="ContentsCategory" syncable="YES"/>
+    </entity>
+    <entity name="ContentsPage" representedClassName="ContentsPage" syncable="YES">
+        <attribute name="actualPageNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="position" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="category" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ContentsCategory" inverseName="pages" inverseEntity="ContentsCategory" syncable="YES"/>
+        <relationship name="subcategory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ContentsSubcategory" inverseName="pages" inverseEntity="ContentsSubcategory" syncable="YES"/>
+    </entity>
+    <entity name="ContentsSubcategory" representedClassName="ContentsSubcategory" syncable="YES">
+        <attribute name="firstPageNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberOfPages" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="position" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="category" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ContentsCategory" inverseName="subcategories" inverseEntity="ContentsCategory" syncable="YES"/>
+        <relationship name="pages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ContentsPage" inverseName="subcategory" inverseEntity="ContentsPage" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ContentsCategory" positionX="-36" positionY="-507" width="128" height="165"/>
+        <element name="ContentsModule" positionX="-252" positionY="-246" width="128" height="75"/>
+        <element name="ContentsPage" positionX="252" positionY="-234" width="128" height="118"/>
+        <element name="ContentsSubcategory" positionX="-20" positionY="-9" width="128" height="135"/>
+    </elements>
+</model>

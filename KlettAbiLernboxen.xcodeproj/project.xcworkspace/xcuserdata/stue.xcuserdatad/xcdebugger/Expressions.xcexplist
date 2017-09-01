@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[Content3TableModel pageRangeForCellAtIndexPath:]:Content3TableModel.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[UAStoreKitObserver downloadAllRestoredItems]:UAStoreKitObserver.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "transaction.transactionState">
+            </PersistentString>
+            <PersistentString
+               value = "transaction.transactionIdentifier">
+            </PersistentString>
+            <PersistentString
+               value = "transaction.payment.productIdentifier">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AnimationLayer initWithLayer:]:AnimationLayer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.numberOfFrames">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NoteViewAnimationLayer init]:NoteScrollViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.bufferedFrameIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UAStoreKitObserver paymentQueue:removedTransactions:]:UAStoreKitObserver.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "transaction">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PDFManager loadModule:]:PDFManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.modulePath">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UAStoreKitObserver paymentQueue:restoreCompletedTransactionsFailedWithError:]:UAStoreKitObserver.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "error.userInfo">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CategoryCell didMoveToSuperview]:TableCells.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "titleLabel.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PageViewController layout]:PageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.containerView">
+            </PersistentString>
+            <PersistentString
+               value = "_model">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[UserDataManager fetchOrCreatePageForModule:pageNumber:]:UserDataManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "module.name">
+            </PersistentString>
+            <PersistentString
+               value = "page.isFavorite">
+            </PersistentString>
+            <PersistentString
+               value = "page.number">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ThumbnailsBar setImages:]:ThumbnailsBar.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_selectionImage.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ModuleManager productIDForModule:]:ModuleManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_contentInstalledForModule">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DocumentViewController addPageViewController2:]:DocumentViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.contentView1">
+            </PersistentString>
+            <PersistentString
+               value = "self.view">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UADownloadManager download:]:UADownloadManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "downloadContent.downloadRequestURL">
+            </PersistentString>
+            <PersistentString
+               value = "request.username">
+            </PersistentString>
+            <PersistentString
+               value = "downloadContent.postData">
+            </PersistentString>
+            <PersistentString
+               value = "request.postBody">
+            </PersistentString>
+            <PersistentString
+               value = "request.password">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UAStoreKitObserver paymentQueue:updatedDownloads:]:UAStoreKitObserver.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "download.transaction.transactionIdentifier">
+            </PersistentString>
+            <PersistentString
+               value = "download.contentIdentifier">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PageViewModel createPageIfNeeded]:PageViewModel.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.page">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AnimationLayer drawInContext:]:AnimationLayer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "modelLayer.bufferedFrameIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NoteViewAnimationLayer setProgress:]:NoteScrollViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[PropertyBoardViewController tableView:cellForRowAtIndexPath:]:PropertyBoardViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[object valueForKey:@&quot;testint&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AnimationLayer animateWithDuration:]:AnimationLayer.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ThumbnailsBar drawRect:]:ThumbnailsBar.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_selectionImage.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DocumentScrollView gestureRecognizerShouldBegin:]:DocumentViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "gestureRecognizer.delegate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PageViewModel switchFavorite]:PageViewModel.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "page.isFavorite">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ThumbnailsBar scrollViewDidScroll:]:ThumbnailsBar.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedThumbnail">
+            </PersistentString>
+            <PersistentString
+               value = "scrollView.contentOffset.x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UAStoreKitObserver completeTransaction:]:UAStoreKitObserver.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "transaction.downloads">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NoteViewAnimationLayer drawInContext:forFrame:]:NoteViewAnimationLayer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.numberOfFrames">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NoteViewAnimationLayer animateWithDuration:]:NoteViewAnimationLayer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "__radiusDiff">
+            </PersistentString>
+            <PersistentString
+               value = "__initialized">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UAStoreKitObserver restoreTransaction:]:UAStoreKitObserver.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "transaction.originalTransaction.transactionIdentifier">
+            </PersistentString>
+            <PersistentString
+               value = "transaction.payment.productIdentifier">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NoteViewAnimationLayer drawInContext:]:NoteScrollViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.bufferedFrameIndex">
+            </PersistentString>
+            <PersistentString
+               value = "modelLayer.bufferedFrameIndex">
+            </PersistentString>
+            <PersistentString
+               value = "self.frameIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DropDownHubView expandHubView:]:DropDownViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "childHubView.totalHeight">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UAInventory productsRequest:didReceiveResponse:]:UAInventory.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.products">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ThumbnailsBar handleTap:]:ThumbnailsBar.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.scrollView.contentOffset">
+            </PersistentString>
+            <PersistentString
+               value = "self.scrollView.frame.origin.x">
+            </PersistentString>
+            <PersistentString
+               value = "_selectionImage.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NoteScrollViewController handleScrollViewDidZoom:]:NoteScrollViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "scrollView.zooming">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NoteViewAnimationLayer initialize]:NoteViewAnimationLayer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.numberOfFrames">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PageViewController contentSizeForScrollView:withMinimumSize:]:PageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "theScrollView.superview">
+            </PersistentString>
+            <PersistentString
+               value = "self.view">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DocumentViewController currentPageViewController]:DocumentViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_viewAppeared">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PageQueue nextPage]:PageQueue.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(NSMutableDictionary*)pageDict">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NoteViewAnimationLayer setBufferedFrameIndex:]:NoteScrollViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.bufferedFrameIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
